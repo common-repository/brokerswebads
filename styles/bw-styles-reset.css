@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+.postbox {background-color:#FFFFFF;position:relative;min-width:255px;width:99.5%;}
+#normal-sortables .postbox .submit{background:transparent none;border:0 none;float:right;margin:0;padding:0 12px;}
+#normal-sortables .postbox #replyrow .submit{float:none;margin:0;padding:3px 7px;}
+.postbox h3{cursor:move;-webkit-user-select:none;-moz-user-select:none;-khtml-user-select:none;user-select:none;}
+.postbox .hndle span{padding:6px 0;}
+.postbox .hndle{cursor:move;}
+.postbox .handlediv{float:right;width:23px;height:26px;}
+.postbox,.stuffbox{margin-bottom:20px;line-height:1;-moz-border-radius:6px;-khtml-border-radius:6px;-webkit-border-radius:6px;border-radius:6px;border-style:solid;border-width:1px;}
+.postbox h3,.postbox h3,.stuffbox h3{-moz-border-radius:6px 6px 0 0;-webkit-border-top-right-radius:6px;-webkit-border-top-left-radius:6px;-khtml-border-top-right-radius:6px;-khtml-border-top-left-radius:6px;border-top-right-radius:6px;border-top-left-radius:6px;}
+.postbox.closed h3{-moz-border-radius-bottomleft:4px;-webkit-border-bottom-left-radius:4px;-khtml-border-bottom-left-radius:4px;border-bottom-left-radius:4px;-moz-border-radius-bottomright:4px;-webkit-border-bottom-right-radius:4px;-khtml-border-bottom-right-radius:4px;border-bottom-right-radius:4px;}
+.postbox-container{float:left;padding-right:.5%;}
+.postbox-container .meta-box-sortables{min-height:300px;}
+#submitdiv h3,.postbox table.form-table{margin-bottom:0;}
+.postbox input[type="text"],.postbox textarea,.stuffbox input[type="text"],.stuffbox textarea,#timestampdiv input,#replyrow input{border-style:solid;border-width:1px;}
+#wpbody .wrap{margin:0 auto}

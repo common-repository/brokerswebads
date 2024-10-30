@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+#bwwrapper{position:relative;padding: 10px 0 0;}
+#bwwrapper img.bwlogo{position:absolute;right:0;top:25px}
+#bwwrapper h2{color:#ff792b; margin:0 0 20px;padding:14px 10px 5px 10px;-webkit-transition:padding .3s ease-out, color .7s ease-out;-moz-transition:padding .3s ease-out, color .7s ease-out;-o-transition:padding .3s ease-out, color .7s ease-out;transition:padding .3s ease-out, color .7s ease-out;font:italic 700 26px/30px "Avant Garde", Futura, Arial, Helvetica, sans-serif;letter-spacing: -1px; width:52%}
+#bwwrapper h2:hover{-webkit-transition:padding .3s ease-out, color .7s ease-out;-moz-transition:padding .3s ease-out, color .7s ease-out;-o-transition:padding .3s ease-out, color .7s ease-out;transition:padding .3s ease-out, color .7s ease-out;color:#ff470e; padding:14px 10px 5px 40px;-webkit-transition-delay: .5s;-moz-transition-delay: .5s;transition-delay: .5s;}
+#bwphone{color:#414141;font:normal 700 22px/1 "Avant Garde", Futura, Arial, Helvetica, sans-serif;letter-spacing: -1px;position:absolute;right:5px;top:65px;width:150px;text-align:center}
+#bwphone small{color:#b7b7b7;font-size:11px;font-weight:300;}
+#BrokersWeb_warning{width:55%}
+#bwclose{float:right;color:#666;text-shadow:#fff 0 1px 0;text-decoration:none; font:700 10px/1 verdana, Arial, Helvetica, sans-serif; position:relative; top:-5px; right:-5px;}
+ul#bwnav{margin:0 0 0 -20px; z-index:1; padding:8px 8px 0;background: url(../images/bwAdsUI_14.jpg) no-repeat 0 0;height:28px;color:#fff;font:italic 20px/1 Georgia, "Times New Roman", Times, serif; text-shadow:0 0 5px rgba(252, 247, 192, 0.7);}
+ul#bwnav li{float:left;padding:0 2%;margin:0}
+ul#bwnav li a{-webkit-transition:top .1s ease-in, color .3s ease-out;-moz-transition:top .1s ease-in, color .3s ease-out;-o-transition:top .1s ease-in, color .3s ease-out;transition:top .1s ease-in, color .3s ease-out;color:#FFF;text-shadow: -1px -1px 5px #000, 1px 1px 5px #000; text-decoration:none;position:relative;top:0}
+ul#bwnav li a:hover{-webkit-transition:top .1s ease-in, color .3s ease-out;-moz-transition:top .1s ease-in, color .3s ease-out;-o-transition:top .1s ease-in, color .3s ease-out;transition: color .3s ease-out, top .3s ease-out;color:#fefabd;top:-2px}
+ul#bwnav li a.bwselected{color:#fefabd;top:-2px}
+#bwwrapper .tabcontent{display:block}
+#bwwrapper .tabhidden{display:none}
+#bwwrapper #bwusage ul li{-webkit-transition:opacity .3s ease-in-out;-moz-transition:opacity .3s ease-in-out;-o-transition:opacity .3s ease-in-out;transition:opacity .3s ease-in-out;width: 400px;opacity: 0.7;padding-bottom:25px;margin-bottom:0}
+#bwwrapper #bwusage ul li:hover{-webkit-transition:opacity .3s ease-in-out;-moz-transition:opacity .3s ease-in-out;-o-transition:opacity .3s ease-in-out;transition:opacity .3s ease-in-out;color:#ff470e;opacity:1}
+#bwwrapper #bwusage div.liheading{border: 1px solid #C05016;background: #FF7026;color: white;text-shadow: 1px 0 0 #874D0E;font: 300 140%/1 verdana;padding: 5px;letter-spacing: -0.1em;}
+#bwwrapper #bwusage div.licont{background: #FEE3D5;border-left: 1px solid #DDA98F;border-right:
+	 1px solid #DDA98F;font:700 120%/1 arial;color: black;border-bottom-left-radius: 3px;border-bottom-right-radius: 3px;-moz-border-radius-bottomright: 3px;-moz-border-radius-bottomleft: 3px;border-bottom: 1px solid #DDA98F;}
+#bwwrapper #bwusage div.bwadsli{margin: 0 5px;padding: 3% 1% 1.7%;}
+#bwwrapper #bwusage div.bbottom{border-bottom:1px solid #e8c2ae;}
+#bwwrapper #bwusage div.btop{border-top:1px solid #FFF}
+#bwwrapper .submit{width:150px; margin:5px auto}
+#demowiz{background-image:url(../images/bwAdsUI_19.png); width:385px; height:198px;}
+#demotrig{background-image:url(../images/bwAdsUI_18.png); width:385px; height:198px;}
+#demofunc{background-image:url(../images/bwAdsUI_22.png); width:453px; height:132px;}
+.bwtooltip{position:absolute;border:1px solid #666;background: no-repeat 0 0; border-radius:2px;-moz-box-shadow:0 0 10px #000;-webkit-box-shadow:0 0 10px #000;-o-box-shadow:0 0 10px #000;box-shadow:0 0 10px #000;z-index:10;}
+#bwimagepreview{top:380px;right:100px}
+#bwwrapper .wizard-table{padding:0;background-color:#FFA;max-width:765px;margin:0 0 0 -20px;border: 1px solid #AAA;border-left: 0 none;border-top-right-radius: 5px;border-bottom-right-radius: 5px;}
+#input-table{max-width:685px;margin:0 0 0 -20px;border: 1px solid #AAA;border-left: 0 none;border-top-right-radius: 5px;border-bottom-right-radius: 5px;padding:0 3%;background: #EAEAEA;text-shadow:1px 1px 0 #FFF}
+#input-table div{padding:40px 0;border-bottom:1px dotted #999}
+#bwmanual #input-table div:last-child{border-bottom:0 none}
+#input-table code{background:#FEFABD}
+#input-table span.bwinputtitle{font: 300 1.2em/1 "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;margin:0 0 0 -10px;color:#4A4A4A}
+#bwwrapper .wizard-table div#bwwizcta{font-size: 18px; padding: 10px 15px 0; background: #FFA041; color: #FFF;}
+#bwwrapper .wizard-table div#bwwizcta label{font-size: 12px; padding: 15px 0 5px; display: block;}
+#bwwizard div:first-child{border-top-right-radius: 5px;}
+#bwwizard div:last-child{border-bottom-right-radius: 5px;}
+#bwwrapper .wizard-table div{padding:5px 15px;position:relative;}
+#bwwrapper .wizard-table div.bwstrip:hover{background: #f0f0f0}
+#bwwrapper .wizard-table div:hover{background: #f9f990}
+#bwwrapper .wizard-table div.bwads_warning{width:35%; position:absolute;top:-50%;right:10%;height:auto;border:thin solid #FE805a;background-color:rgba(255, 232, 232, 0.8);padding:5px;font:700 11px/1.2 trebuchet MS;border-radius: 5px 0;-moz-border-radius: 5px 0;-webkit-border-top-right-radius: 0;-webkit-border-bottom-right-radius: 5px;-webkit-border-bottom-left-radius: 0;display:none;}
+.bwads_warning a{font:700 11px/1.2 trebuchet MS}
+.bwrequired{color:#DF0000;}
+.bwstrip{background-color:#fff;}
+#bwwrapper h4{font: 700 18px/1.3 "Avant Garde", Futura, Arial, Helvetica, sans-serif;margin: 3em 0 0.5em;color: #555;background-size: 60% 1%;background: url(../images/bwAdsUI_11.png) no-repeat -15px bottom;padding-bottom: 15px;}
+#bwwrapper textarea{width:98%}
+.bwadsor{color: #6d6d6d;display: block;font: italic normal 300 1.5em/1 georgia;text-align: center;position:relative; width:60px; margin:5px auto;}
+.bwadsor span{position:relative; top:6px;}
+.bwadsleft{float:left;clear:left}
+.bwadsright{float:right;clear:right}
+.bwadsleft,.bwadsright{position:relative; width:45%; min-width:300px;}
+@media screen and (max-width: 768px){
+ #bwwrapper{padding: 80px 0 0;}
+ #bwwrapper img.bwlogo{left:5px !important}
+ #bwphone{top:15px;}
+ #bwwrapper h2,#BrokersWeb_warning{width:80% !important}
+ ul#bwnav{font-size:18px;}
+ #bwwizard input[type="text"]{width:100%}
+}
+@media all and (orientation:portrait) {}
+@media all and (orientation:landscape) {}
+@media screen and (max-device-width: 480px) {
+ html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; }
+}
+@media screen and (max-width:320px){
+ #bwwrapper{padding: 50px 0 0;width: 240px;}
+ #bwwrapper img.bwlogo{left:5px !important; width: 90%}
+ #bwphone{display: none}
+ #bwwrapper h2,#BrokersWeb_warning{width:80% !important;padding-left: 0}
+ #bwwrapper h2:hover{padding: 14px 10px 5px 0 !important;}
+ ul#bwnav{font-size:16px; background: #616161; height: auto; overflow: hidden;padding:8px;}
+ ul#bwnav li{float:none;padding: 2%;}
+ ul#bwnav li:nth-child(even){display:none}
+ #bwwizard input[type="text"]{width:100%}
+}
